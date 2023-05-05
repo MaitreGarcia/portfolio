@@ -1,0 +1,95 @@
+[
+  {
+    "title": "JavaScript",
+    "level": 2,
+    "category": "JavaScript"
+  },
+  {
+    "title": "VueJS",
+    "level": 2,
+    "category": "JavaScript"
+  },
+  {
+    "title": "React",
+    "level": 1,
+    "category": "JavaScript"
+  },
+  {
+    "title": "Vuetify",
+    "level": 2,
+    "category": "JavaScript"
+  },
+  {
+    "title": "Nuxt",
+    "level": 2,
+    "category": "JavaScript"
+  },
+  {
+    "title": "NodeJs",
+    "level": 2,
+    "category": "JavaScript"
+  },
+  {
+    "title": "RequireJS",
+    "level": 2,
+    "category": "JavaScript"
+  },
+  {
+    "title": "React",
+    "level": 1,
+    "category": "JavaScript"
+  },
+  {
+    "title": "HTML",
+    "level": 2,
+    "category": "Web"
+  },
+  {
+    "title": "CSS",
+    "level": 2,
+    "category": "Web"
+  },
+  {
+    "title": "ASP.NET",
+    "level": 2,
+    "category": "Microsoft"
+  },
+  {
+    "title": ".NET",
+    "level": 2,
+    "category": "Microsoft"
+  },
+  {
+    "title": "SharePoint",
+    "level": 2,
+    "category": "Microsoft"
+  },
+  {
+    "title": "Flutter",
+    "level": 1,
+    "category": "Mobile"
+  },
+  {
+    "title": "Docker",
+    "level": 2,
+    "category": "IT"
+  },
+  {
+    "title": "Figma",
+    "level": 2,
+    "category": "Outils de conception"
+  },
+  {
+    "title": "Anglais",
+    "level": 2,
+    "grade": 845,
+    "grade_max": 900,
+    "exam": "TOEIC",
+    "category": "Langues"
+  },
+  {
+    "title": "Espagnol",
+    "level": 2,
+    "category": "Langues"
+  }
+]

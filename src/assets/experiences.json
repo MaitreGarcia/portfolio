@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Ingénieur développement logiciel",
+    "company": "Dassault Systèmes",
+    "year_started": 2019,
+    "description": "Actuellement développeur dans l'equipe Marketplace de Dassault Systemes, je développe l'application Make",
+    "href": "https://make.3dexperience.3ds.com/",
+    "tasks": [
+      "Migration d'une application existante vers VueJS",
+      "Refactoring des pages webs existantes",
+      "SEO - Search Engine Optimization",
+      "Définition et création des nouvelles fonctionnalitées",
+      "Créations d'interfaces utilisateurs",
+      "Résolutions de bugs",
+      "Mentoring d'un apprenti"
+    ]
+  },
+  {
+    "title": "Développeur",
+    "company": "Inmac-wstore",
+    "year_started": 2014,
+    "year_ended": 2019,
+    "href": "https://www.inmac-wstore.com/",
+    "tasks": [
+      "Création d'applications Webs : VueJS / .Net Core",
+      "Instalation de base de données SQL Server",
+      "Mise en place d'intégration continue TFS",
+      "Mise en place de l'intranet société via SharePoint",
+      "Création de rapports et Dashboard d'entreprise",
+      "Gestions d'applications Web via IIS"
+    ]
+  },
+  {
+    "title": "Développeur",
+    "sub_title": "Co-Createur et développeur du projet Monkey-Tracking",
+    "year_started": 2018,
+    "year_ended": 2019,
+    "tasks": [
+      "Création d'une application Nuxt",
+      "Mise en place d'une base de donnée MongoDB",
+      "Mise en place d'une infrastructure Docker",
+      "Intégration continue via GitLab"
+    ]
+  }
+]

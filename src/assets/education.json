@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Ecole d'ingénierie informatique",
+    "school": "EPSI Paris",
+    "graduated_year": 2019
+  },
+  {
+    "title": "DUT Informatique",
+    "school": "Université Paris XII",
+    "graduated_year": 2019
+  },
+  {
+    "title": "BAC Série Scientifique au Raincy",
+    "school": "Raincy",
+    "graduated_year": 2014
+  }
+]
