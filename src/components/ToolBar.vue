@@ -8,7 +8,11 @@ import { ArrowDownTrayIcon, ExclamationTriangleIcon } from '@heroicons/vue/24/so
       <ExclamationTriangleIcon class="w-7 h-7" />
       Work in progress
     </div>
-    <button class="cursor-pointer border-2 rounded-full p-2 flex items-center justify-center transform-gpu hover:scale-110 hover:animate-pulse transition-transform">
+    <button
+      @click="$emit('download-cv')"
+      aria-label="Download-CV"
+      class="cursor-pointer border-2 rounded-full p-2 flex items-center justify-center transform-gpu hover:scale-110 hover:animate-pulse transition-transform"
+    >
       <ArrowDownTrayIcon class="w-7 h-7" />
     </button>
   </div>  

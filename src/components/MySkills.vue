@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { BriefcaseIcon, ChevronRightIcon } from '@heroicons/vue/24/solid'
+  import { BriefcaseIcon, ChevronRightIcon, MinusSmallIcon } from '@heroicons/vue/24/solid'
   import { useSkillsStore } from '@/stores/skills';
   const skillsStore = useSkillsStore();
   
@@ -24,7 +24,7 @@
           class="flex flex-row gap-4 items-center justify-between"
         >
           <div class="flex flex-row gap-4 items-center">
-            <ChevronRightIcon class="h-5 w-5" />
+            <MinusSmallIcon class="h-5 w-5" />
             {{ skill.title }}
           </div>
           <div class="text-stone-600 font-thin">

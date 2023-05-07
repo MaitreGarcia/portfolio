@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useExperiencesStore } from '@/stores/experiences';
-import { WindowIcon, CalendarIcon } from '@heroicons/vue/24/solid'
+import { WindowIcon, CalendarIcon, MinusSmallIcon } from '@heroicons/vue/24/solid'
 
 const experiencesStore = useExperiencesStore();
 
@@ -33,9 +33,9 @@ const experiencesStore = useExperiencesStore();
           </SubHeader>
         </div>
         <p v-if="experience.description">{{ experience.description }}</p>
-        <ul class="list-disc ml-5">
-          <li v-for="task in experience.tasks" :key="`${experience.title}-${task}`">
-            {{ task }}
+        <ul class="">
+          <li v-for="task in experience.tasks" :key="`${experience.title}-${task}`" class="flex flex-row gap-4 items-center">
+            <MinusSmallIcon class="h-5 w-5" /> {{ task }}
           </li>
         </ul>
       </div>
