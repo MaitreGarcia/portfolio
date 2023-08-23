@@ -19,6 +19,8 @@ app.component('SubHeader', SubHeader)
 app.use(createPinia())
 app.use(router)
 
+// ImageKitId: 7gl7a1msg
+
 app.mount('#app')
 
 
