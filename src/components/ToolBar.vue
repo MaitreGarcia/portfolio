@@ -17,7 +17,7 @@ import LanguageSelector from './LanguageSelector.vue'
       aria-label="Download-CV"
       class="cursor-pointer border-2 rounded-full p-2 flex items-center justify-center transform-gpu hover:scale-110 transition-transform smooth-enter-right"
     >
-      <ArrowDownTrayIcon class="w-7 h-7" />
+      <ArrowDownTrayIcon class="w-6 h-6" />
     </button>
   </div>  
 </template>
