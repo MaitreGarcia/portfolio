@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useExperiencesStore } from '@/stores/experiences';
+import DiscoverProjectButton from './DiscoverProjectButton.vue';
 import { WindowIcon, CalendarIcon, MinusSmallIcon } from '@heroicons/vue/24/solid'
 
 const experiencesStore = useExperiencesStore();
@@ -18,18 +19,18 @@ const experiencesStore = useExperiencesStore();
         :key="experience.title + '-title'" 
         class="flex flex-col gap-4"
       >
-        <div class="flex flex-row justify-between">
+        <div class="flex flex-row gap-2">
+          <SubHeader v-if="experience.year_ending">
+            <CalendarIcon class="h-6 w-6"/>
+            {{ experience.year_starting }}
+            -
+            {{ experience.year_ending }} :
+          </SubHeader>
           <SubHeader>
             <template v-if="experience.company">
               {{ experience.company }} : 
             </template>
             {{ experience.title }}
-          </SubHeader>
-          <SubHeader v-if="experience.year_ending">
-            {{ experience.year_starting }}
-            -
-            {{ experience.year_ending }}
-            <CalendarIcon class="h-6 w-6"/>
           </SubHeader>
         </div>
         <p v-if="experience.description">{{ experience.description }}</p>
