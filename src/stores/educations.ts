@@ -2,7 +2,7 @@ import { ref } from 'vue'
 import { defineStore } from 'pinia'
 import { educationsParser, type Education } from '@/models/education';
 
-import json_education from '@/assets/education.json' assert { type: 'JSON' };
+import json_education from '@/assets/education.json' with { type: 'JSON' };
 
 export const useEducationsStore = defineStore('educations', {
   state: () => ({

@@ -2,7 +2,7 @@ import { ref } from 'vue'
 import { defineStore } from 'pinia'
 import { skillsParser, type Skill } from '@/models/skill';
 
-import json_skill from '@/assets/skills.json' assert { type: 'JSON' };
+import json_skill from '@/assets/skills.json' with { type: 'JSON' };
 
 export const useSkillsStore = defineStore('skills', {
   state: () => ({

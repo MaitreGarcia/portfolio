@@ -1,9 +1,45 @@
-[
+[ 
+  {
+    "title": "Lead developper - OnlineStore",
+    "company": "Dassault Systèmes",
+    "year_started": 2024,
+    "description": "Lead Developer au service OnlineStore de Dassault Systèmes, expert en développement d'applications web scalables. Responsable de la vision technique et du mentorat d'équipe, je pilote le cycle de vie complet de services critiques, avec une priorité constante sur la qualité du code, la performance et l'expérience client.",
+    "href": "https://my.3dexperience.3ds.com/offers/Makers_Sculptor",
+    "tasks": [
+      "Mise en place d'un architecture server side rendering, Vue3 / Typescript",
+      "Mise en place d'une architecture de projet Front FSD",
+      "Création d'une architecture Node en microservices",
+      "Définition et mise en place d'un plan de testing UnitTest / End to End (Vitest / Cypress)",
+      "Management d'une infrastructure de devops / CI avec GitlabCI",
+      "Management de bugdget / coup de services",
+      "Mise en place de plans de deployement Kubernetes / Docker"
+    ]
+  },
+    {
+    "title": "Ingénieur Manager - développement logiciel",
+    "company": "Dassault Systèmes",
+    "year_started": 2023,
+    "year_ended": 2024,
+    "description": "Ingénieur manager d'équipe composé de 4 personnes pour l'application Marketplace Make",
+    "href": "https://make.3dexperience.3ds.com/",
+    "tasks": [
+      "Passage de l'application Vue2 vers Vue3",
+      "Mise en place d'un architecture server side rendering",
+      "SEO - Search Engine Optimization",
+      "Définition et création des nouvelles fonctionnalitées",
+      "Assignations des features aux membres de l'équipes",
+      "Management d'équipe et définition d'un plan commun",
+      "Recrutement / gestion de crise",
+      "Définition d'un plan d'augmentations salariales",
+      "Définition d'un plan de formation et d'améliorations de compétences des collaborateurs"
+    ]
+  },
   {
     "title": "Ingénieur développement logiciel",
     "company": "Dassault Systèmes",
     "year_started": 2019,
-    "description": "Actuellement développeur dans l'equipe Marketplace de Dassault Systemes, je développe l'application Make",
+    "year_ended": 2023,
+    "description": "Développeur de l'application Make de Dassault Systemes",
     "href": "https://make.3dexperience.3ds.com/",
     "tasks": [
       "Migration d'une application existante vers VueJS",

@@ -1,7 +1,7 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
-import json_experiences from '@/assets/experiences.json' assert { type: 'JSON' };
+import json_experiences from '@/assets/experiences.json' with { type: 'JSON' };
 import { experiencesParser, type Experiences } from '@/models/experiences';
 
 export const useExperiencesStore = defineStore('experiences', () => {
