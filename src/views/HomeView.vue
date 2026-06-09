@@ -6,22 +6,22 @@ import AboutMe from '@/components/AboutMe.vue';
 import ToolBar from '@/components/ToolBar.vue';
 
 import { ComputerDesktopIcon } from '@heroicons/vue/24/solid'
+import MyProjects from '@/components/MyProjects.vue';
 
 
 const downloadCV = () => {
   window.open('/CV_Leo_Garcia_Canelo_fr.pdf', '_blank');
 }
-
 </script>
 <template>
-  <header class="flex flex-col bg-blue-600 p-4 w-full justify-center items-center h-[600px] gap-2">
+  <header class="flex flex-col bg-blue-600 p-4 w-full justify-center items-center h-[300px] gap-2">
       <img src="https://ik.imagekit.io/7gl7a1msg/profile.webp" alt="Léo Garcia Canelo" class="rounded-full h-40 w-40 mx-auto" />
       <div class="smooth-enter-top flex flex-col justify-center items-center">
         <h1 class="text-white text-3xl"><b>Léo</b> Garcia Canelo</h1>
         <div class="text-white flex flex-row items-center justify-center gap-1">
           <ComputerDesktopIcon class="w-6 h-6"/>
           <h2 class="text-2x">
-            Ingénieur développement logiciel
+            Lead Developer
           </h2>
         </div>
       </div>
@@ -33,6 +33,7 @@ const downloadCV = () => {
     <AboutMe />
     <MyExperiences />
     <MySkills />
+    <MyProjects />
     <MyEducation />
   </main>
 </template>

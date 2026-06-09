@@ -8,9 +8,8 @@ import LanguageSelector from './LanguageSelector.vue'
   <div class="flex flex-row px-4 py-2 max-w-screen-lg mx-auto items-center">
     <div class="grow flex flex-row items-center gap-2 text-center smooth-enter-left">
       <div class="flex flex-row gap-1 item-center">
-        <LanguageSelector />
+        <!-- <LanguageSelector /> -->
       </div>
-      <WorkInProgress />
     </div>
     <button
       @click="$emit('download-cv')"

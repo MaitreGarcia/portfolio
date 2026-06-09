@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import { CommandLineIcon } from '@heroicons/vue/24/solid'
-
-
 import { useEducationsStore } from '@/stores/educations';
 const educationStore = useEducationsStore();
 </script>

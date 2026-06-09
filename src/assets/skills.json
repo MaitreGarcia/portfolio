@@ -35,11 +35,6 @@
     "category": "JavaScript"
   },
   {
-    "title": "React",
-    "level": 1,
-    "category": "JavaScript"
-  },
-  {
     "title": "HTML",
     "level": 2,
     "category": "Web"
@@ -91,5 +86,10 @@
     "title": "Espagnol",
     "level": 2,
     "category": "Langues"
+  },
+  {
+    "title": "GitLab CI",
+    "level": 2,
+    "category": "Tooling"
   }
 ]

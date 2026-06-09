@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { BriefcaseIcon, ChevronRightIcon, MinusSmallIcon } from '@heroicons/vue/24/solid'
+  import { BriefcaseIcon, MinusSmallIcon } from '@heroicons/vue/24/solid'
   import { useSkillsStore } from '@/stores/skills';
   const skillsStore = useSkillsStore();
   

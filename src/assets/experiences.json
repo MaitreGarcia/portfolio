@@ -11,7 +11,7 @@
       "Création d'une architecture Node en microservices",
       "Définition et mise en place d'un plan de testing UnitTest / End to End (Vitest / Cypress)",
       "Management d'une infrastructure de devops / CI avec GitlabCI",
-      "Management de bugdget / coup de services",
+      "Management de budget / coûts de service",
       "Mise en place de plans de deployement Kubernetes / Docker"
     ]
   },
@@ -59,7 +59,7 @@
     "href": "https://www.inmac-wstore.com/",
     "tasks": [
       "Création d'applications Webs : VueJS / .Net Core",
-      "Instalation de base de données SQL Server",
+      "Installation de base de données SQL Server",
       "Mise en place d'intégration continue TFS",
       "Mise en place de l'intranet société via SharePoint",
       "Création de rapports et Dashboard d'entreprise",
