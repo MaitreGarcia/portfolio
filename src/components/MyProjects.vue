@@ -1,35 +1,52 @@
 <script lang="ts" setup>
-import { MinusSmallIcon } from '@heroicons/vue/24/solid'
 import { useProjectsStore } from '@/stores/projects';
 import { PresentationChartBarIcon } from '@heroicons/vue/24/solid';
+import Card from './Card.vue';
+import SubHeader from './SubHeader.vue';
 
 const projectsStore = useProjectsStore()
 </script>
 <template>
-  <div>
+  <div class="flex flex-col gap-2">
     <SubTitle>
       <template #icon>
         <PresentationChartBarIcon class="h-6 w-6"/>
       </template>
       Projects
     </SubTitle>
-    <div 
-      v-for="project in projectsStore.projects" 
-      class="flex flex-col gap-2"
-    >
-      <SubHeader :id="project.id">
-        {{ project.title }}
-      </SubHeader>
-      <p>{{ project.description }}</p>
-      <ul>
-        <li
-          class="flex flex-row items-center gap-2"
-          v-for="feature in project.features"
+    <div class="grid grid-cols-1 md:grid-cols-1 md:flex-row gap-3">
+      <Card 
+        v-for="(project, index) in projectsStore.projects" 
+        :href="project.url"
+        :id="project.id"
+        :reverse="index %2 === 0"
+      >
+        <img 
+          class="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" 
+          :src="project.image"
+          :alt="project.title"
+          async
         >
-          <MinusSmallIcon class="h-5 w-5" />
-          {{ feature }}
-        </li>
-      </ul>
+        <div class="flex flex-col justify-between md:p-4 leading-normal">
+            <SubHeader>
+             {{ project.title }}
+            </SubHeader>
+            <h4 class="m">
+              
+            </h4>
+            <p class="mb-6 text-body">
+              {{ project.description }}
+            </p>
+            <ul class="list-disc">
+              <li
+                class="flex flex-row items-center gap-2"
+                v-for="feature in project.features"
+              >
+                {{ feature }}
+              </li>
+            </ul>
+        </div>
+      </Card>
     </div>
   </div>
 </template>

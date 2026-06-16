@@ -1,7 +1,8 @@
 <script setup lang="ts">
   import { BriefcaseIcon, MinusSmallIcon } from '@heroicons/vue/24/solid'
   import { useSkillsStore } from '@/stores/skills';
-  const skillsStore = useSkillsStore();
+import Card from './Card.vue';
+const skillsStore = useSkillsStore();
   
 </script>
 <template>
@@ -12,35 +13,39 @@
         </template>
         Compétences
       </SubTitle>
-      <div 
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <Card
+        href="#"
         v-for="(skills, category) in skillsStore.skillsByCategory" 
-        :key="category + '-title'"
-        class="flex flex-col gap-2"
       >
-         <SubHeader>{{ category }}</SubHeader>
-         <div 
-          v-for="skill in skills"
-          :key="`${skill.title}`" 
-          class="flex flex-row gap-4 items-center justify-between"
-        >
-          <div class="flex flex-row gap-4 items-center">
-            <MinusSmallIcon class="h-5 w-5" />
-            {{ skill.title }}
-          </div>
-          <div class="text-stone-600 font-thin">
-            <template v-if="skill.grade">
-              {{ skill.exam }}: {{ skill.grade }} / {{ skill.maxGrade }}
-            </template>
-            <template v-else>
-              <template v-if="skill.level === 1">
-                Débutant
-              </template>
-              <template v-if="skill.level === 2">
-                Confirmé
-              </template>
-            </template>
+        <div class="flex flex-col w-full gap-2">
+          <SubHeader>{{ category }}</SubHeader>
+          <div class="flex flex-col w-full">
+            <div 
+              v-for="skill in skills"
+              :key="`${skill.title}`" 
+              class="flex flex-row gap-4 items-center justify-between w-full"
+            >
+              <div class="items-center">
+                {{ skill.title }}
+              </div>
+              <div class="text-stone-600 font-thin">
+                <template v-if="skill.grade">
+                  {{ skill.exam }}: {{ skill.grade }} / {{ skill.maxGrade }}
+                </template>
+                <template v-else>
+                  <template v-if="skill.level === 1">
+                    Débutant
+                  </template>
+                  <template v-if="skill.level === 2">
+                    Confirmé
+                  </template>
+                </template>
+              </div>
+            </div>
           </div>
         </div>
+      </Card>
       </div>
   </div>
 </template>
