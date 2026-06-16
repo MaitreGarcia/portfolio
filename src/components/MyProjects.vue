@@ -20,6 +20,7 @@ const projectsStore = useProjectsStore()
         :href="project.url"
         :id="project.id"
         :reverse="index %2 === 0"
+        class="gap-4"
       >
         <img 
           class="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0" 
@@ -27,24 +28,21 @@ const projectsStore = useProjectsStore()
           :alt="project.title"
           async
         >
-        <div class="flex flex-col justify-between md:p-4 leading-normal">
-            <SubHeader>
-             {{ project.title }}
-            </SubHeader>
-            <h4 class="m">
-              
-            </h4>
-            <p class="mb-6 text-body">
-              {{ project.description }}
-            </p>
-            <ul class="list-disc">
-              <li
-                class="flex flex-row items-center gap-2"
-                v-for="feature in project.features"
-              >
-                {{ feature }}
-              </li>
-            </ul>
+        <div class="flex flex-col justify-between leading-normal">
+          <SubHeader>
+            {{ project.title }}
+          </SubHeader>
+          <p class="mb-6 text-body">
+            {{ project.description }}
+          </p>
+          <ul class="list-disc">
+            <li
+              class="flex flex-row items-center gap-2"
+              v-for="feature in project.features"
+            >
+              {{ feature }}
+            </li>
+          </ul>
         </div>
       </Card>
     </div>

@@ -9,7 +9,7 @@ const { href, reverse = false } = defineProps<{
   <a  
     :href="href ?? ''"
     :target="href ? '_blank' : ''"
-    class="cursor-pointer flex flex-col items-center bg-neutral-primary-soft p-5 border border-default rounded-md shadow-xs md:flex-row w-full"
+    class="cursor-pointer flex flex-col items-center p-5 border border-default rounded-md shadow-xs md:flex-row w-full"
     :class="[{
       'md:flex-row-reverse': reverse
     }]"

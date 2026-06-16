@@ -80,24 +80,6 @@
     "category": "Outils"
   },
   {
-    "title": "Français",
-    "level": 2,
-    "category": "Langues"
-  },
-  {
-    "title": "Anglais",
-    "level": 2,
-    "grade": 845,
-    "maxGrade": 900,
-    "exam": "TOEIC",
-    "category": "Langues"
-  },
-  {
-    "title": "Espagnol",
-    "level": 2,
-    "category": "Langues"
-  },
-  {
     "title": "GitLab CI",
     "level": 2,
     "category": "Outils"
@@ -131,5 +113,18 @@
     "title": "Page objects",
     "level": 2,
     "category": "Testing"
+  },
+  {
+    "title": "Anglais",
+    "level": 2,
+    "grade": 845,
+    "maxGrade": 900,
+    "exam": "TOEIC",
+    "category": "Langues"
+  },
+  {
+    "title": "Espagnol",
+    "level": 2,
+    "category": "Langues"
   }
 ]
