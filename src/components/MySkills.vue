@@ -1,9 +1,9 @@
 <script setup lang="ts">
-  import { BriefcaseIcon, MinusSmallIcon } from '@heroicons/vue/24/solid'
-  import { useSkillsStore } from '@/stores/skills';
+import { BriefcaseIcon } from '@heroicons/vue/24/solid'
+import { useSkillsStore } from '@/stores/skills';
 import Card from './Card.vue';
+
 const skillsStore = useSkillsStore();
-  
 </script>
 <template>
   <div class="flex flex-col gap-2">
@@ -16,7 +16,8 @@ const skillsStore = useSkillsStore();
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
       <Card
         href="#"
-        v-for="(skills, category) in skillsStore.skillsByCategory" 
+        v-for="(skills, category) in skillsStore.skillsByCategory"
+        class="items-baseline"
       >
         <div class="flex flex-col w-full gap-2">
           <SubHeader>{{ category }}</SubHeader>

@@ -80,10 +80,15 @@
     "category": "Outils"
   },
   {
+    "title": "Français",
+    "level": 2,
+    "category": "Langues"
+  },
+  {
     "title": "Anglais",
     "level": 2,
     "grade": 845,
-    "grade_max": 900,
+    "maxGrade": 900,
     "exam": "TOEIC",
     "category": "Langues"
   },
@@ -98,6 +103,11 @@
     "category": "Outils"
   },
   {
+    "title": "Unlighthouse",
+    "level": 1,
+    "category": "Outils"
+  },
+  {
     "title": "MongoDB",
     "level": 1,
     "category": "Base de données"
@@ -106,5 +116,20 @@
     "title": "Oracle",
     "level": 1,
     "category": "Base de données"
+  },
+  {
+    "title": "Cypress",
+    "level": 2,
+    "category": "Testing"
+  },
+  {
+    "title": "Vitest",
+    "level": 2,
+    "category": "Testing"
+  },
+  {
+    "title": "Page objects",
+    "level": 2,
+    "category": "Testing"
   }
 ]
