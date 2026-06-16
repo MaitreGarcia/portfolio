@@ -32,8 +32,8 @@
               {{ skill.exam }}: {{ skill.grade }} / {{ skill.maxGrade }}
             </template>
             <template v-else>
-              <template v-if="skill.isInLearning">
-                Debutant
+              <template v-if="skill.level === 1">
+                Débutant
               </template>
               <template v-if="skill.level === 2">
                 Confirmé

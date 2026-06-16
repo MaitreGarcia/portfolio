@@ -30,7 +30,9 @@ const experiencesStore = useExperiencesStore();
             <template v-if="experience.company">
               {{ experience.company }} : 
             </template>
-            {{ experience.title }}
+            <a :href="`#${experience.project}`">
+              {{ experience.title }}
+            </a>
           </SubHeader>
         </div>
         <p v-if="experience.description">{{ experience.description }}</p>

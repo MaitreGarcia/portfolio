@@ -15,9 +15,9 @@
     "category": "JavaScript"
   },
   {
-    "title": "Vuetify",
+    "title": "Tailwind",
     "level": 2,
-    "category": "JavaScript"
+    "category": "Web"
   },
   {
     "title": "Nuxt",
@@ -46,33 +46,38 @@
   },
   {
     "title": "ASP.NET",
-    "level": 2,
+    "level": 1,
     "category": "Microsoft"
   },
   {
     "title": ".NET",
-    "level": 2,
+    "level": 1,
     "category": "Microsoft"
   },
   {
     "title": "SharePoint",
-    "level": 2,
+    "level": 1,
     "category": "Microsoft"
   },
   {
-    "title": "Flutter",
+    "title": "SQL Server",
     "level": 1,
-    "category": "Mobile"
+    "category": "Microsoft"
   },
   {
     "title": "Docker",
     "level": 2,
-    "category": "IT"
+    "category": "Outils"
+  },
+  {
+    "title": "Typescript",
+    "level": 2,
+    "category": "Outils"
   },
   {
     "title": "Figma",
     "level": 2,
-    "category": "Outils de conception"
+    "category": "Outils"
   },
   {
     "title": "Anglais",
@@ -90,6 +95,16 @@
   {
     "title": "GitLab CI",
     "level": 2,
-    "category": "Tooling"
+    "category": "Outils"
+  },
+  {
+    "title": "MongoDB",
+    "level": 1,
+    "category": "Base de données"
+  },
+  {
+    "title": "Oracle",
+    "level": 1,
+    "category": "Base de données"
   }
 ]

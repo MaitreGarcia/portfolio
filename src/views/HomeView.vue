@@ -32,8 +32,8 @@ const downloadCV = () => {
   <main class="flex flex-col gap-4 p-4 max-w-screen-lg mx-auto">
     <AboutMe />
     <MyExperiences />
-    <MySkills />
     <MyProjects />
+    <MySkills />
     <MyEducation />
   </main>
 </template>

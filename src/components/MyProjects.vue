@@ -17,7 +17,7 @@ const projectsStore = useProjectsStore()
       v-for="project in projectsStore.projects" 
       class="flex flex-col gap-2"
     >
-      <SubHeader>
+      <SubHeader :id="project.id">
         {{ project.title }}
       </SubHeader>
       <p>{{ project.description }}</p>
