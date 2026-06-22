@@ -6,12 +6,12 @@ import CommonContainer from './CommonContainer.vue';
   <CommonContainer>
     <SubTitle>
       <template #icon>
-        <UserCircleIcon class="h-6 w-6"/>
+        <UserCircleIcon class="h-6 w-6" />
       </template>
       A propos de moi
     </SubTitle>
-    Développeur, mentor et motard.
-    J'aime construire des projets techniques innovants tout autant que j'aime aider mes équipes à grandir.
-    Conscient des enjeux de demain, j'essaie de concilier ma passion pour le code avec une approche plus écologique et efficiente de la tech.
- </CommonContainer>
+    Construire des projets techniques de pointe est une passion qui m'habite au quotidien. J'aime
+    également accompagner mes équipes dans leur croissance. Face aux défis de demain, je cherche à
+    allier mon amour du code à une approche plus verte et efficace de la technologie.
+  </CommonContainer>
 </template>
