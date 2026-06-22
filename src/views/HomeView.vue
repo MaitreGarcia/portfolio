@@ -15,21 +15,23 @@ const downloadCV = () => {
 </script>
 <template>
   <header class="flex flex-col bg-blue-600 p-4 w-full justify-center items-center h-[300px] gap-2">
-      <img src="https://ik.imagekit.io/7gl7a1msg/profile.webp" alt="Léo Garcia Canelo" class="rounded-full h-40 w-40 mx-auto" />
-      <div class="smooth-enter-top flex flex-col justify-center items-center">
-        <h1 class="text-white text-3xl"><b>Léo</b> Garcia Canelo</h1>
-        <div class="text-white flex flex-row items-center justify-center gap-1">
-          <ComputerDesktopIcon class="w-6 h-6"/>
-          <h2 class="text-2x">
-            Lead Developer
-          </h2>
-        </div>
+    <img src="https://ik.imagekit.io/7gl7a1msg/profile.webp"
+      alt="Léo Garcia Canelo"
+      class="rounded-full h-40 w-40 mx-auto" />
+    <div class="smooth-enter-top flex flex-col justify-center items-center">
+      <h1 class="text-white text-3xl"><b>Léo</b> Garcia Canelo</h1>
+      <div class="text-white flex flex-row items-center justify-center gap-1">
+        <ComputerDesktopIcon class="w-6 h-6" />
+        <h2 class="text-2x">
+          Lead Developer
+        </h2>
       </div>
+    </div>
   </header>
   <div class="bg-blue-600 w-full sticky top-0 text-white">
     <ToolBar @download-cv="downloadCV" />
   </div>
-  <main class="flex flex-col gap-4 p-4 max-w-screen-lg mx-auto">
+  <main class="flex flex-col gap-5 p-4 max-w-screen-lg mx-auto">
     <AboutMe />
     <MyExperiences />
     <MyProjects />

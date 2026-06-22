@@ -90,16 +90,6 @@
     "category": "Outils"
   },
   {
-    "title": "MongoDB",
-    "level": 1,
-    "category": "Base de données"
-  },
-  {
-    "title": "Oracle",
-    "level": 1,
-    "category": "Base de données"
-  },
-  {
     "title": "Cypress",
     "level": 2,
     "category": "Testing"
@@ -110,16 +100,13 @@
     "category": "Testing"
   },
   {
-    "title": "Page objects",
+    "title": "Page Objects",
     "level": 2,
     "category": "Testing"
   },
   {
     "title": "Anglais",
     "level": 2,
-    "grade": 845,
-    "maxGrade": 900,
-    "exam": "TOEIC",
     "category": "Langues"
   },
   {

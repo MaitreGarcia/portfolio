@@ -2,31 +2,28 @@
 import { BriefcaseIcon } from '@heroicons/vue/24/solid'
 import { useSkillsStore } from '@/stores/skills';
 import Card from './Card.vue';
+import CommonContainer from './CommonContainer.vue';
 
 const skillsStore = useSkillsStore();
 </script>
 <template>
-  <div class="flex flex-col gap-2">
-      <SubTitle>
-        <template #icon>
-          <BriefcaseIcon class="h-6 w-6" />
-        </template>
-        Compétences
-      </SubTitle>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-      <Card
-        href="#"
+  <CommonContainer>
+    <SubTitle>
+      <template #icon>
+        <BriefcaseIcon class="h-6 w-6" />
+      </template>
+      Compétences
+    </SubTitle>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+      <Card href="#"
         v-for="(skills, category) in skillsStore.skillsByCategory"
-        class="items-baseline"
-      >
+        class="items-baseline">
         <div class="flex flex-col w-full gap-2">
           <SubHeader>{{ category }}</SubHeader>
           <div class="flex flex-col w-full">
-            <div 
-              v-for="skill in skills"
-              :key="`${skill.title}`" 
-              class="flex flex-row gap-4 items-center justify-between w-full"
-            >
+            <div v-for="skill in skills"
+              :key="`${skill.title}`"
+              class="flex flex-row gap-4 items-center justify-between w-full">
               <div class="items-center">
                 {{ skill.title }}
               </div>
@@ -47,6 +44,6 @@ const skillsStore = useSkillsStore();
           </div>
         </div>
       </Card>
-      </div>
-  </div>
+    </div>
+  </CommonContainer>
 </template>
