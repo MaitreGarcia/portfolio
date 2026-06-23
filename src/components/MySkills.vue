@@ -18,7 +18,7 @@ const skillsStore = useSkillsStore();
       <Card href="#"
         v-for="(skills, category) in skillsStore.skillsByCategory"
         class="items-baseline">
-        <div class="flex flex-col w-full gap-2">
+        <div class="flex flex-col w-full gap-2 p-5">
           <SubHeader>{{ category }}</SubHeader>
           <div class="flex flex-col w-full">
             <div v-for="skill in skills"

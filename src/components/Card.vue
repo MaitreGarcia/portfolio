@@ -6,14 +6,12 @@ const { href, reverse = false } = defineProps<{
 }>()
 </script>
 <template>
-  <a  
-    :href="href ?? ''"
+  <a :href="href ?? ''"
     :target="href ? '_blank' : ''"
-    class="cursor-pointer flex flex-col items-center p-5 border border-default rounded-md shadow-xs md:flex-row w-full"
+    class="cursor-pointer flex flex-col items-center border border-default rounded-xl shadow-md w-full relative"
     :class="[{
       'md:flex-row-reverse': reverse
-    }]"
-  >
+    }]">
     <slot />
   </a>
 </template>

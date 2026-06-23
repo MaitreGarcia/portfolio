@@ -3,6 +3,7 @@ import { useExperiencesStore } from '@/stores/experiences';
 import { WindowIcon, CalendarIcon } from '@heroicons/vue/24/solid'
 import CommonContainer from './CommonContainer.vue';
 import ContentList from './ContentList.vue';
+import AIf from './AIf.vue';
 
 const experiencesStore = useExperiencesStore();
 </script>
@@ -25,14 +26,14 @@ const experiencesStore = useExperiencesStore();
           -
           {{ experience.year_ended }}:
         </SubHeader>
-        <SubHeader>
-          <template v-if="experience.company">
-            {{ experience.company }} :
-          </template>
-          <a :href="`#${experience.project}`">
+        <AIf :href="experience.project ? `#${experience.project}` : ''">
+          <SubHeader>
+            <template v-if="experience.company">
+              {{ experience.company }} :
+            </template>
             {{ experience.title }}
-          </a>
-        </SubHeader>
+          </SubHeader>
+        </AIf>
       </div>
       <p v-if="experience.description">{{ experience.description }}</p>
       <ContentList :items="experience.tasks.map((el) => ({ label: el }))" />

@@ -16,22 +16,21 @@ const projectsStore = useProjectsStore()
       </template>
       Projects
     </SubTitle>
-    <div class="grid grid-cols-1 md:grid-cols-1 md:flex-row gap-3">
-      <Card v-for="(project, index) in projectsStore.projects"
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <Card v-for="project in projectsStore.projects"
         :href="project.url"
         :id="project.id"
-        :reverse="index % 2 === 0"
         class="gap-4">
-        <img class="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0"
+        <img class="object-cover w-full rounded-base h-64 rounded-xl"
           :src="project.image"
           v-if="project.image"
           :alt="project.title"
           async>
-        <div class="flex flex-col justify-between leading-normal">
-          <SubHeader>
-            {{ project.title }}
-          </SubHeader>
-          <p class="mb-6 text-body">
+        <SubHeader class="absolute top-[220px] left-4 text-white">
+          {{ project.title }}
+        </SubHeader>
+        <div class="flex flex-col justify-between leading-normal p-5 gap-5">
+          <p class="text-body">
             {{ project.description }}
           </p>
           <ContentList :items="project.features.map((el) => ({ label: el }))" />

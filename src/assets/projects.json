@@ -2,7 +2,7 @@
   {
     "title": "3DS OnlineStore",
     "id": "3dsonlinestore",
-    "image": "https://ik.imagekit.io/7gl7a1msg/OnlineStore.png",
+    "image": "https://ik.imagekit.io/7gl7a1msg/onlinestore.webp",
     "url": "https://my.3dexperience.3ds.com/offers/Makers_Sculptor",
     "description": "Le store en ligne de Dassault Systemes pour l'achats des solutions 3DS tel que SolidWorks ou Catia",
     "features": [
@@ -15,7 +15,8 @@
   },
   {
     "title": "3DS Marketplace Make",
-    "image": "https://ik.imagekit.io/7gl7a1msg/make.png",
+    "id": "3dsmake",
+    "image": "https://ik.imagekit.io/7gl7a1msg/make.webp",
     "url": "https://make.3dexperience.3ds.com/",
     "description": "Marketplace de mise en relation de services d'impression / création à des clients en ligne",
     "features": [
