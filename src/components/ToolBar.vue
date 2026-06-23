@@ -1,8 +1,5 @@
 <script lang="ts" setup>
 import { ArrowDownTrayIcon } from '@heroicons/vue/24/solid'
-import WorkInProgress from './WorkInProgress.vue';
-import LanguageSelector from './LanguageSelector.vue'
-
 </script>
 <template>
   <div class="flex flex-row px-4 py-2 max-w-screen-lg mx-auto items-center">
@@ -11,12 +8,16 @@ import LanguageSelector from './LanguageSelector.vue'
         <!-- <LanguageSelector /> -->
       </div>
     </div>
-    <button
-      @click="$emit('download-cv')"
+    <a href="https://github.com/MaitreGarcia"
+      aria-label="Visit Github"
+      class="cursor-pointer rounded-full p-2 flex items-center justify-center transform-gpu hover:scale-110 transition-transform smooth-enter-right">
+      <img class="w-[44px] h-[44px]"
+        src="https://ik.imagekit.io/7gl7a1msg/GitHub_White.png" />
+    </a>
+    <button @click="$emit('download-cv')"
       aria-label="Download-CV"
-      class="cursor-pointer border-2 rounded-full p-2 flex items-center justify-center transform-gpu hover:scale-110 transition-transform smooth-enter-right"
-    >
+      class="cursor-pointer border-2 rounded-full p-2 flex items-center justify-center transform-gpu hover:scale-110 transition-transform smooth-enter-right">
       <ArrowDownTrayIcon class="w-6 h-6" />
     </button>
-  </div>  
+  </div>
 </template>
