@@ -1,4 +1,4 @@
-[ 
+[
   {
     "title": "Lead developper - OnlineStore",
     "project": "3dsonlinestore",
@@ -7,32 +7,32 @@
     "description": "Lead Developer au service OnlineStore de Dassault Systèmes, expert en développement d'applications web scalables. Responsable de la vision technique et du mentorat d'équipe, je pilote le cycle de vie complet de services critiques, avec une priorité constante sur la qualité du code, la performance et l'expérience client.",
     "href": "https://my.3dexperience.3ds.com/offers/Makers_Sculptor",
     "tasks": [
-      "Mise en place d'un architecture server side rendering, Vue3 / Typescript",
-      "Mise en place d'une architecture de projet Front FSD",
-      "Création d'une architecture Node en microservices",
-      "Définition et mise en place d'un plan de testing UnitTest / End to End (Vitest / Cypress)",
-      "Management d'une infrastructure de devops / CI avec GitlabCI",
-      "Management de budget / coûts de service",
-      "Mise en place de plans de deployement Kubernetes / Docker"
+      "Mise en œuvre d’une architecture de rendu côté serveur utilisant Vue3 et TypeScript,",
+      "Mise en place d’une architecture de projet Front-End FSD (Feature Slide Design),",
+      "Conception et déploiement d’une architecture Node.js basée sur des microservices,",
+      "Définition et mise en œuvre d’une stratégie de tests unitaires et de bout en bout (Vitest et Cypress),",
+      "Gestion d’une infrastructure DevOps et d’un pipeline d’intégration continue (CI) avec GitLab CI,",
+      "Gestion budgétaire et optimisation des coûts des services,",
+      "Déploiement de plans d’infrastructure utilisant Kubernetes et Docker."
     ]
   },
-    {
+  {
     "title": "Ingénieur Manager - développement logiciel",
     "company": "Dassault Systèmes",
     "year_started": 2023,
     "year_ended": 2024,
-    "description": "Ingénieur manager d'équipe composé de 4 personnes pour l'application Marketplace Make",
+    "description": "Ingénieur manager d'équipe composé de 5 personnes pour l'application Marketplace Make",
     "href": "https://make.3dexperience.3ds.com/",
     "tasks": [
-      "Passage de l'application Vue2 vers Vue3",
-      "Mise en place d'un architecture server side rendering",
-      "SEO - Search Engine Optimization",
-      "Définition et création des nouvelles fonctionnalitées",
-      "Assignations des features aux membres de l'équipes",
-      "Management d'équipe et définition d'un plan commun",
-      "Recrutement / gestion de crise",
-      "Définition d'un plan d'augmentations salariales",
-      "Définition d'un plan de formation et d'améliorations de compétences des collaborateurs"
+      "Migration de l’application Vue2 vers Vue3,",
+      "Mise en œuvre d’une architecture de rendu côté serveur,",
+      "Optimisation pour les moteurs de recherche (SEO),",
+      "Définition et développement des nouvelles fonctionnalités,",
+      "Attribution des fonctionnalités aux membres de l’équipe,",
+      "Management d’équipe et élaboration d’un plan stratégique commun,",
+      "Recrutement et gestion de crise,",
+      "Élaboration d’un plan d’augmentation des salaires,",
+      "Définition d’un plan de formation et de développement des compétences des collaborateurs."
     ]
   },
   {
@@ -43,13 +43,13 @@
     "description": "Développeur de l'application Make de Dassault Systemes",
     "href": "https://make.3dexperience.3ds.com/",
     "tasks": [
-      "Migration d'une application existante vers VueJS",
-      "Refactoring des pages webs existantes",
-      "SEO - Search Engine Optimization",
-      "Définition et création des nouvelles fonctionnalitées",
-      "Créations d'interfaces utilisateurs",
-      "Résolutions de bugs",
-      "Mentoring d'un apprenti"
+      "Migration d’une application existante vers la technologie VueJS,",
+      "Refactoring des pages web existantes,",
+      "Optimisation pour les moteurs de recherche (SEO),",
+      "Définition et développement de nouvelles fonctionnalités,",
+      "Création d’interfaces utilisateurs,",
+      "Résolution de problèmes techniques (bugs),",
+      "Encadrement d’un apprenti."
     ]
   },
   {
@@ -59,24 +59,25 @@
     "year_ended": 2019,
     "href": "https://www.inmac-wstore.com/",
     "tasks": [
-      "Création d'applications Webs : VueJS / .Net Core",
-      "Installation de base de données SQL Server",
-      "Mise en place d'intégration continue TFS",
-      "Mise en place de l'intranet société via SharePoint",
-      "Création de rapports et Dashboard d'entreprise",
-      "Gestions d'applications Web via IIS"
+      "Développement d’applications Web utilisant VueJS et .Net Core,",
+      "Installation et configuration de base de données SQL Server,",
+      "Mise en œuvre d’un processus d’intégration continue avec Team Foundation Server (TFS),",
+      "Déploiement et gestion de l’intranet de l’entreprise à l’aide de SharePoint,",
+      "Conception et développement de rapports et de tableaux de bord d’entreprise,",
+      "Administration et gestion d’applications Web sur Internet Information Services (IIS)."
     ]
   },
   {
     "title": "Développeur",
-    "sub_title": "Co-Createur et développeur du projet Monkey-Tracking",
+    "description": "Co-créateur et développeur du projet Monkey-Tracking, une initiative freelance de gestion automatisée de portefeuille de cryptomonnaies.",
     "year_started": 2018,
     "year_ended": 2019,
     "tasks": [
-      "Création d'une application Nuxt",
-      "Mise en place d'une base de donnée MongoDB",
-      "Mise en place d'une infrastructure Docker",
-      "Intégration continue via GitLab"
+      "Développement d’une application Nuxt,",
+      "Mise en œuvre d’une base de données MongoDB,",
+      "Configuration d’une infrastructure Docker,",
+      "Mise en place d'une Progressive Web App (PWA),",
+      "Intégration continue via GitLab."
     ]
   }
 ]

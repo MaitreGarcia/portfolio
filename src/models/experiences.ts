@@ -3,9 +3,9 @@ export type Experiences = {
   subtitle?: string,
   description?: string,
   company?: string,
-  year_starting?: number,
+  year_started?: number,
   tasks: string[]
-  year_ending?: number,
+  year_ended?: number,
   isPersonalProject?: boolean,
   href?: string,
   project?: string,

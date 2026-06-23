@@ -4,6 +4,7 @@ import { PresentationChartBarIcon } from '@heroicons/vue/24/solid';
 import Card from './Card.vue';
 import SubHeader from './SubHeader.vue';
 import CommonContainer from './CommonContainer.vue';
+import ContentList from './ContentList.vue';
 
 const projectsStore = useProjectsStore()
 </script>
@@ -32,12 +33,7 @@ const projectsStore = useProjectsStore()
           <p class="mb-6 text-body">
             {{ project.description }}
           </p>
-          <ul class="list-disc">
-            <li class="flex flex-row items-center gap-2"
-              v-for="feature in project.features">
-              {{ feature }}
-            </li>
-          </ul>
+          <ContentList :items="project.features.map((el) => ({ label: el }))" />
         </div>
       </Card>
     </div>

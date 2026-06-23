@@ -2,6 +2,7 @@
 import { CommandLineIcon } from '@heroicons/vue/24/solid'
 import CommonContainer from '@/components/CommonContainer.vue';
 import { useEducationsStore } from '@/stores/educations';
+import ContentList from './ContentList.vue';
 const educationStore = useEducationsStore();
 </script>
 <template>
@@ -12,12 +13,7 @@ const educationStore = useEducationsStore();
       </template>
       Formation
     </SubTitle>
-    <div v-for="education in educationStore.educations"
-      :key="education.title + '-title'">
-      <span class="text-stone-600 font-thin">
-        {{ education.graduated_year }}
-      </span>
-      - {{ education.title }}
-    </div>
+    <ContentList
+      :items="educationStore.educations.map((el) => ({ prepend: el.graduated_year.toString(), label: el.title }))" />
   </CommonContainer>
 </template>
