@@ -24,6 +24,7 @@ const projectsStore = useProjectsStore()
         class="gap-4">
         <img class="object-cover w-full rounded-base h-64 md:h-auto md:w-48 mb-4 md:mb-0"
           :src="project.image"
+          v-if="project.image"
           :alt="project.title"
           async>
         <div class="flex flex-col justify-between leading-normal">

@@ -19,10 +19,10 @@
     "url": "https://make.3dexperience.3ds.com/",
     "description": "Marketplace de mise en relation de services d'impression / création à des clients en ligne",
     "features": [
-       "Gestion du panier d'achat",
-       "Configuration d'une specification d'une demande de création (Impression 3D, Usinage, Découpe, ect...)",
-       "Visualisation de produits en 3D via ThreeJS",
-       "Mode de compatibilité addin Solidworks"
+      "Gestion du panier d'achat",
+      "Configuration d'une specification d'une demande de création (Impression 3D, Usinage, Découpe, ect...)",
+      "Visualisation de produits en 3D via ThreeJS",
+      "Mode de compatibilité addin Solidworks"
     ]
   }
 ]
