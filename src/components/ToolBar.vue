@@ -12,6 +12,7 @@ import { ArrowDownTrayIcon } from '@heroicons/vue/24/solid'
       aria-label="Visit Github"
       class="cursor-pointer rounded-full p-2 flex items-center justify-center transform-gpu hover:scale-110 transition-transform smooth-enter-right">
       <img class="w-[44px] h-[44px]"
+        alt="Github logo"
         src="https://ik.imagekit.io/7gl7a1msg/GitHub_White.png" />
     </a>
     <button @click="$emit('download-cv')"
